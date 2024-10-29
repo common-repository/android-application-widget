@@ -1,0 +1,274 @@
+/*
+ * Scroll Bars Style
+ * Do not change this names!!! Dependencies with javascript.
+ */
+
+div.scrollholder
+{
+    position: relative;
+    width: 270px; height: 350px;
+    overflow: auto;
+    z-index: 11;
+    background-color: #f3f3f3;
+}
+
+div.scroll
+{
+    position: absolute;
+    left: 0; top: 0;
+    width: 100%;
+    z-index: 12;
+}
+
+/* <Scroll> */
+div.track
+{
+    position: relative;
+    float:right;
+    top: 0; 
+    width: 5px; height: 100%;
+    font-size: 0;
+    z-index: 13;
+    background-image:url('../img/trackbody.png')
+}
+
+div.drag_bar
+{
+    position: absolute;
+    width: 100%; height: 14px;
+    cursor: pointer;
+    z-index: 14;
+    width:4px;
+    background-image:url('../img/barbody.png')
+}  
+
+/*
+ * Page style
+ *
+ */
+ 
+#wpmarket{
+	width:270px;
+	color:#FFFFFF;
+	font-family:Arial;
+	z-index: 10;
+	height:475px;
+
+}
+
+#wpmarket_apptitlebar{
+	width:270px;height:52px;
+	background-image:url('../img/titlebg.png');
+	padding-top:1px;
+	margin:0px;
+}
+
+#wpmarket_apptitle{
+	width:200px;
+	height:48px; 
+	margin:2px;
+		margin-left:5px;
+	background-repeat:no-repeat;
+	text-align:left;
+}
+
+.wpmarket_applogo{
+ float:left;
+}
+
+.wpmarket_appname{
+	margin-bottom:0px;
+	font-size:18px;
+	font-weight: bold;
+		margin-left:5px;
+}
+
+.wpmarket_author{
+	margin-bottom:5px;
+	font-size:13px;
+	margin-left:5px;
+}
+
+#wpmarket_appscore{
+	float:right;
+	width:65px;
+	margin-top:-25px;
+}
+
+#wpmarket_pricebox{
+	text-align:right;
+	width:60px;
+	padding-right:5px;
+}
+
+.wpmarket_price{
+	font-size:14px;
+	font-weight: bold;
+	margin-bottom:10px;
+}
+
+.wpmarket_starsbg{
+	width:60px;height:14px;
+	background-image:url('../img/stars_off.png');
+	background-repeat:no-repeat;
+	display:block;
+}
+
+.wpmarket_stars{
+background-image:url('../img/stars_on.png');
+background-repeat:no-repeat;
+display:block;
+height:14px;
+}
+
+#wpmarket_contentbox{
+	height:350px;
+}
+
+#wpmarket_separator{
+	margin:0px;
+	background-image:url('../img/line.png');
+	background-repeat:no-repeat;
+	background-position:center center;
+	display:block;
+	height:1px;
+	width:265px;
+}
+
+#wpmarket_appsubtitlebar{
+width:264px;height:20px;
+background-image:url('../img/subtitlebg.png');
+padding-top:1px;
+margin:0px;
+background-position:center;
+padding:3px;
+}
+
+#wpmarket_appsubtitle{
+	font-size:14px;
+	padding-left:7px;
+}
+
+#wpmarket_appblock{
+	width:250px;
+	padding:10px;
+	background-color:#181818;
+}
+
+.wpmarket_desription{
+	font-size:14px;
+}
+
+.wpmarket_version{
+font-size:14px;
+color:#cccccc;
+}
+
+#wpmarket_commentblock{
+	width:270px;
+	background-color:#181818;
+}
+
+#wpmarket_comment{
+	padding:10px;
+}
+
+#wpmarket_comentauthor{
+	font-size:14px;
+	margin-bottom:5px;
+	font-weight: bold;
+}
+
+.wpmarket_commentdate{
+font-weight: normal;
+color:#cccccc;
+}
+
+#wpmarket_commentscore{
+float:right;
+width:65px;
+margin-top:-20px;
+}
+
+.wpmarket_coment_starsbg{
+	width:60px;
+	height:14px;
+	background-image:url('../img/stars_c_off.png');
+	background-repeat:no-repeat;
+	display:block;
+}
+.wpmarket_coment_stars{
+	background-image:url('../img/stars_c_on.png');
+	background-repeat:no-repeat;
+	display:block;
+	height:14px;
+}
+
+#wpmarket_commenttext{
+	font-size:14px;
+	margin-top:5px;
+}
+
+#wpmarket_comment_separator{
+	margin:0px;background-image:url('../img/line.png');
+	background-repeat:no-repeat;
+	background-position:center center;
+	display:block;
+	height:1px;
+	width:100%;
+}
+
+#wpmarket_apptitlebar{
+	width:270px;
+	height:51px;
+	background-image:url('../img/installbar.png');
+	padding-top:1px;
+	margin:0px;
+	text-align:center;
+}
+
+.wpmarket_install_button{
+font-size:16px;
+border:0px;
+width:157px;
+height:47px; 
+background-image:url('../img/installbutton.png');
+background-repeat:no-repeat;
+}
+
+#wpmarket_installcodebar{
+	position: absolute;
+	width:270px;
+	z-index:99;
+	text-align:center;
+	visibility: hidden;
+}
+
+
+
+#wpmarket_installcodebar_close input{
+  margin-top:0px;
+  width:270px;
+  height:48px;
+  margin:0px;background-image:url('../img/closeinstall.png');
+	background-repeat:no-repeat;
+	background-position:center center;
+	border:0px;
+	background-color:transparent;
+
+}
+
+#wpmarket_installcodebar_image{
+	background-color:#ffffff;
+}
+#wpmarket_installcodebar_image img{
+	margin-top:60px;
+	margin-bottom:160px;
+	background-color:#ffffff;
+	
+}
+
+#wpmarket_credits{
+	color:#000000;
+	text-align: right;
+}
